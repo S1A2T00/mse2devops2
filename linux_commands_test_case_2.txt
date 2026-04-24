@@ -1,0 +1,8 @@
+cd ~
+touch index.html
+echo "<html><body>Test Case 2</body></html>" > index.html
+ls -l index.html
+chmod 777 index.html
+chown www-data:www-data index.html
+chmod 755 index.html
+ls -l index.html
